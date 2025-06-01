@@ -6,7 +6,7 @@ let result=Math.floor(random_num)
 let count=3
 for(let i=1;i<=3;i++){
   let input_user=prompt('Enter a number between 0-9')
-if(input_user===result){
+if(input_user==result){
 x.innerText='Cangratulations! You won \uD83C\uDF89'
 x.style.color='green'
 break
